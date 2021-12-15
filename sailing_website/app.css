@@ -1,0 +1,89 @@
+header {
+  width: 270px;
+  float: left;
+  position: fixed;
+}
+
+body {
+  background-color: #fff;
+  padding: 50px;
+  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #727272;
+  font-weight: 400;
+}
+/*
+<!--
+    border-style: solid;
+    border: 5px, thin, black;
+    border-top: white;
+    border-bottom: white;
+    border-left: white;
+    padding-left: 20px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    -->
+    */
+h1 {
+  text-align: left;
+}
+section h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+img#profile_pic {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.content {
+  width: 860px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #2a9d8f;
+  border: 5px solid #264653;
+  color: #ebe4c1;
+  padding: 0.7em;
+  width: 300px;
+  font-size: 1.8em;
+  text-align: center;
+  margin: 20px auto;
+  font-family: Courier New;
+  font-weight: lighter;
+  display: block;
+}
+
+button:nth-of-type(2n) {
+  background-color: #ed6a5e;
+}
+button:nth-of-type(3n) {
+  background-color: #fac656;
+}
+button:nth-of-type(4n) {
+  background-color: #4ce0b3;
+}
+
+button:hover {
+  border-color: #f1ff5c;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
+section {
+  width: 500px;
+  float: right;
+  padding-bottom: 50px;
+}
+
+footer {
+  width: 270px;
+  float: left;
+  position: fixed;
+  bottom: 50px;
+}
